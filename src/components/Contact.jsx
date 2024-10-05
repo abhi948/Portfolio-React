@@ -18,8 +18,8 @@ const Contact = () => {
             <p className='my-4 text-xl'>{CONTACT.address}</p>
             <p className='my-4 text-xl'>{CONTACT.phoneNo}</p>
             <a className='my-4 text-xl' href="#">{CONTACT.email}</a>
+            <p><a className='btn btn-outline btn-accent my-4 text-xl' href="https://drive.google.com/file/d/10PecxbJDhC7Mm-R6_CtG2Jchylbtndj2/view?usp=sharing">My Resume/CV</a></p>
         </motion.div>
-
     </div>
   )
 }
