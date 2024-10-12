@@ -9,7 +9,8 @@ export const Navbar = () => {
     <nav className='mb-14 flex items-center justify-between py-6 '>
         <div className='flex felx-shrink-0 items-center'>
             {/* <img src={logo} alt='' /> */}
-            <h1 className='text-6xl'>Ay</h1>
+{/*             <h1 className='text-6xl'>Ay</h1> */}
+              <img src={Logo} alt="" className='border-none rounded-full h-20'/>
         </div>
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
             <a href="https://www.instagram.com/abhhisheekkk/"><FaInstagram /></a> 
