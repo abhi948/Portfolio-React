@@ -3,6 +3,7 @@ import {FaLinkedin} from 'react-icons/fa';
 import {FaGithub} from 'react-icons/fa';
 import {FaTwitter} from 'react-icons/fa';
 import {FaInstagram} from 'react-icons/fa';
+import Logo from '../assets/logoAY.png'
 
 export const Navbar = () => {
   return (
