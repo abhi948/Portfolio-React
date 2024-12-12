@@ -10,7 +10,7 @@ import Contact from './components/Contact'
 export default function App() {
   return (
     <>
-      <div className='overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 
+      <div className='overflow-hidden text-neutral-300 antialiased selection:bg-cyan-300 
       selection:text-cyan-500'>
         <div className='fixed top-0 -z-10 h-full w-full'>
           <div className="absolute inset-0 -z-10 h-full w-full items-center 
