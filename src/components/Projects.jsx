@@ -1,6 +1,7 @@
 import React from 'react'
 import { PROJECTS } from '../constants'
 import {motion} from 'framer-motion'
+
 export const Projects = () => {
   return (
     <>
@@ -38,6 +39,13 @@ export const Projects = () => {
                         {tecch}
                       </span>
                     ))}
+                    <br /><br />
+                    <div>
+                      <a href={project.url}className='mr-2 rounded mt-10 bg-neutral-900 px-2 py-1 text-sm
+                        font-medium text-cyan-400'>
+                          Visit Website
+                        </a>
+                    </div>
                   </motion.div>
                 </div>
               ))}
