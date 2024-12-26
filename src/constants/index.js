@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
+import project4 from "../assets/projects/project-4.png";
 
 export const HERO_CONTENT = `I am a passionate web developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React.js, as well as back-end technologies like Node.js, Express, and MongoDB. Additionally, I am well-versed in Java programming and excel at solving Data Structures and Algorithms (DSA) questions on platforms such as LeetCode and GeeksforGeeks. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -24,6 +25,20 @@ export const EXPERIENCES = [
     description: `Designed and developed user interfaces for web applications using WebPress. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["HTML", "CSS", "Wordpress"],
   },
+  // {
+  //   year: "2021 - 2022",
+  //   role: "Full Stack Developer",
+  //   company: "Facebook",
+  //   description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+  //   technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+  // },
+  // {
+  //   year: "2020 - 2021",
+  //   role: "Software Engineer",
+  //   company: "Paypal",
+  //   description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+  //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+  // },
 ];
 
 export const PROJECTS = [
@@ -33,13 +48,15 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Vite"],
+    url:""
   },
   {
-    title: "Baatein-A Chat Application",
+    title: "Chat Application",
     image: project2,
     description:
       "An application for the real time chatting on the Web based application using the MERN stack.",
     technologies: ["MERN", "Socket.io", "Tailwind"],
+    url:"https://tubular-peony-38fd09.netlify.app"
   },
   {
     title: "Portfolio Website",
@@ -47,11 +64,20 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind"],
+    url:"https://abhishekyadav-sigma.vercel.app/"
+  },
+  {
+    title: "CRUD_MERN", 
+    image: project4,
+    description:
+      "A platform for adding the user details, updating the user details and deleting the Users.",
+    technologies: ["MongoDB", "ReactJS", "NodeJS", "ExpressJS", "TailwindCSS"],
+    url:"https://deft-biscuit-7cf12f.netlify.app/"
   },
 ];
 
 export const CONTACT = {
-  address: "Sakinaka, Mumbai-400 072 ",
+  address: "90ft Road, Sakinaka, Mumbai-400 072 ",
   phoneNo: "+91 93242 39105",
   email: "dhabhishekyadav41@gmail.com",
 };
