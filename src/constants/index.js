@@ -48,7 +48,7 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Vite"],
-    url:""
+    url:"https://abhishekyadav-sigma.vercel.app"
   },
   {
     title: "Chat Application",
