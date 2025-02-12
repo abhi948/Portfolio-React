@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a passionate web developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React.js, as well as back-end technologies like Node.js, Express, and MongoDB. Additionally, I am well-versed in Java programming and excel at solving Data Structures and Algorithms (DSA) questions on platforms such as LeetCode and GeeksforGeeks. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -74,10 +75,19 @@ export const PROJECTS = [
     technologies: ["MongoDB", "ReactJS", "NodeJS", "ExpressJS", "TailwindCSS"],
     url:"https://deft-biscuit-7cf12f.netlify.app/"
   },
+  
+  {
+    title: "Organization Mangement Platform", 
+    image: project5,
+    description:
+      "A platform for handling the organizations and teams , employers within the organization.",
+    technologies: ["MongoDB", "ReactJS", "NodeJS", "ExpressJS", "TailwindCSS"],
+    url:"https://willowy-granita-248392.netlify.app/"
+  },
 ];
 
 export const CONTACT = {
   address: "90ft Road, Sakinaka, Mumbai-400 072 ",
   phoneNo: "+91 93242 39105",
-  email: "dhabhishekyadav41@gmail.com",
+  email: "dhabhishekyadav41@gmail.com"
 };
