@@ -12,7 +12,7 @@ Outside of coding, I enjoy staying active, exploring new technologies, and contr
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
+    year: "2024",
     role: "Web Developer",
     company: "Spyda Securities",
     description: `Lead a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented APIs and integrated with MongoDB databases. 
@@ -20,7 +20,7 @@ export const EXPERIENCES = [
     technologies: ["Javascript", "React.js", "NodeJS", "MongoDB"],
   },
   {
-    year: "2022 - 2023",
+    year: "2023",
     role: "Frontend Developer",
     company: "Abhishek-Shaishnik",
     description: `Designed and developed user interfaces for web applications using WebPress. Implemented responsive designs and optimized frontend performance.`,
